@@ -37,13 +37,9 @@
 
 
 ### Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/VoiceAI-Conversationalist.git
-   cd VoiceAI-Conversationalist
-   ```
 
-2. **Install Dependencies**:
+
+1. **Install Dependencies**:
    - **Backend**:
      ```bash
      cd server
@@ -55,7 +51,7 @@
      npm install
      ```
 
-3. **Environment Variables**:
+2. **Environment Variables**:
    In the `server` folder, create a `.env` file and add the following variables:
 
    ```plaintext
@@ -63,7 +59,7 @@
    JWT_SECRET=your_jwt_secret
    ```
 
-4. **Run the Application**:
+3. **Run the Application**:
    - Start the backend:
      ```bash
      cd server
@@ -75,7 +71,7 @@
      npm run dev
      ```
 
-5. **Access the Application**:
+4. **Access the Application**:
    Visit `http://localhost:3000` in your browser.
 
 ## Environment Variables
